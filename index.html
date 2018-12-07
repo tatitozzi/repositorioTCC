@@ -10,7 +10,7 @@
   <meta name="description" content="Repositório do TCC II - Curso Bacharelado em Sistemas de Informação - BSI 15">
   <meta name="keywords" content="bsi15, tcc, modelo de aplicação, animais domesticos, tecnologias, modelo, levantamento">
   <!-- CSS dependencies -->
-  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="style/theme.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <!-- Script: Make my navbar transparent when the document is scrolled to top -->
   <script src="https://d33wubrfki0l68.cloudfront.net/js/12e3ca424c3c55e3d306e6423ed9e81f260dd657/aquamarine/js/navbar-ontop.js"></script>
@@ -23,9 +23,13 @@
   <div class="py-5 text-center text-white h-100 align-items-center d-flex" style="	background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(images/bg.png);	background-position: center center, center center;	background-size: cover, cover;	background-repeat: repeat, repeat;">
     <div class="container py-5">
       <div class="row">
+        <div class="col-md-12"><i class="d-block fa fa-angle-down pt-5 fa-3x"></i>
+          <div class="col-md-12"></div>
+        </div>
+      </div>
+      <div class="row">
         <div class="col-lg-12 text-white mt-5">
           <h1><br><br><br>Modelo de aplicação <i>Web</i> com ênfase em ONGs de proteção animal para apoio ao resgate de animais domésticos</h1>
-          <h1 class="display-4 d-block d-md-none">Conference Pingendo</h1>
           <h3 class="" contenteditable="true"><br>Tatiana Tozzi<br><br></h3>
           <div class="row">
             <div class="col-md-6">
@@ -35,8 +39,14 @@
               <p class="lead">Prof. MSc. Rodrigo Ramos Nogueira<br><i>Co-orientador</i></p>
             </div>
           </div>
-          <p class=""><br>27 de novembro de 2018</p><i class="d-block fa fa-angle-down pt-5 fa-3x"></i>
+          <p class=""><br>27 de novembro de 2018</p>
         </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-12"><i class="d-block fa fa-angle-down pt-5 fa-3x"></i></div>
       </div>
     </div>
   </div>
@@ -86,7 +96,7 @@
             <div class="text-center col-4"><i class="d-block mx-auto fa fa-5x fa-file-text"></i></div>
             <div class="col-8">
               <h5 class="mb-3 text-primary"><b>Banca de TCC</b></h5>
-              <p class="my-1">Apresentação de slide realizada para banca avaliativa no TC II</p><a class="btn btn-primary text-uppercase" href="#">Ver</a>
+              <p class="my-1">Apresentação de slide realizada para banca avaliativa no TC II</p><a class="btn btn-primary text-uppercase" href="https://prezi.com/view/nIlE6l69FnPjAwVHjBEW/">Ver</a>
             </div>
           </div>
         </div>
@@ -95,7 +105,7 @@
             <div class="text-center col-4"><i class="d-block mx-auto fa fa-5x fa-file"></i></div>
             <div class="col-8">
               <h5 class="mb-3 text-primary"><b>Seminário de Socialização</b></h5>
-              <p class="my-1">Apresentação em slide no Seminário de Socialização do TC I</p><a class="btn btn-primary text-uppercase" href="#">Ver</a>
+              <p class="my-1">Apresentação em slide no Seminário de Socialização do TC I</p><a class="btn btn-primary text-uppercase" href="http://prezi.com/0zgpzphswsb5/?utm_campaign=share&amp;utm_medium=copy">Ver</a>
             </div>
           </div>
         </div>
@@ -153,11 +163,11 @@
           <h3 class="text-white"><i class="fa fa-user fa-fw"></i>Contato</h3>
           <p class="my-3">tatitozzi@hotmail.com<br>daniel.anderle@ifc.edu.br<br>rodrigo.nogueira@ifc.edu.br</p>
         </div>
-        <div class="col-md-4"><img class="img-fluid d-block" src="https://static.pingendo.com/img-placeholder-1.svg"></div>
+        <div class="col-md-4"><img class="img-fluid d-block" src="images/branco-preto-borda.png" style="	background-image: url(../../branco-preto-borda.png);	background-position: top left;	background-size: 100%;	background-repeat: repeat;"></div>
       </div>
       <div class="row">
         <div class="col-md-12">
-          <p class="text-primary">© Copyright 2018 - Meow or Never - All rights reserved. </p>
+          <p class="text-primary">© Copyright 2018 - Meow or Never + Meow is Coming&nbsp; - All rights reserved. </p>
         </div>
       </div>
     </div>
@@ -170,8 +180,32 @@
   <script src="https://d33wubrfki0l68.cloudfront.net/js/26a3094ac9c5e8d045f102e8929a6db58b3bbd83/aquamarine/js/smooth-scroll.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-29443235-15"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-29443235-15');
+  </script>
+  <script style="">
+    (function(h, o, t, j, a, r) {
+      h.hj = h.hj || function() {
+        (h.hj.q = h.hj.q || []).push(arguments)
+      };
+      h._hjSettings = {
+        hjid: 713084,
+        hjsv: 6
+      };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script');
+      r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
   
- 
 </body>
 
 </html>
